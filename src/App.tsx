@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './App.css';
-
-function App() {
+// function component oldugunu belirmek icin 
+const App: FC = () => {
   return (
     <div className="App">
 
